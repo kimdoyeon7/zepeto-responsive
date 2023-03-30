@@ -1,0 +1,27 @@
+/* tablet widht:1024*/
+@media screen and (max-width:1024px) {
+	/* tablet  CSS */
+    header nav {display:none;}
+    main .visual .wrap_container video {
+        height:150%;
+    }
+    main .wrap3 .wrap_container .creator a:last-child {
+        display:none;
+    }
+}
+
+@media (max-width:430px) {
+	/* mobile  CSS */
+    header h1 {width:50%;}
+    header nav {display:none;}
+    main .wrap2 .wrap_container .contents dl {
+        background-color: #fff;
+        width:45%;
+        padding:30px 0;
+        border-radius: 20px;}
+    main .wrap2 .wrap_container .contents dl:nth-child(3){display:none;}
+    /* 크리에이터 사진 */
+    main .wrap3 .wrap_container .creator a:last-child {display:none;}
+    main .wrap3 .wrap_container .creator a:nth-child(4) {display:none;}
+    footer .wrap .wrap_container .right {display:none;}
+}
